@@ -1,0 +1,41 @@
+.pindiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top:0.5rem;
+}
+
+.pin {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.pinbutton {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 70px;
+    width: 130px;
+    margin-top: 20px;
+}
+
+
+.pinforgetbutton {
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background:none;
+    cursor: pointer;
+}
+
+.textname {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
