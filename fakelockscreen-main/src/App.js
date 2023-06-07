@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import Inputpin from './components/Inputpin';
-import backgroundImage from "./images/backscreen.jpeg";
+import backgroundImage from "./images/background_image.jpg";
 
 
 function App() {
@@ -46,6 +46,7 @@ function App() {
       backgroundRepeat: "no-repeat",
       width: "100%",
       height: "100vh",
+      overflow: "hidden",
     }}>
       <Inputpin />
     </div>
